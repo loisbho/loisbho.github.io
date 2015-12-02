@@ -28,6 +28,7 @@ li:hover {
 }
 
 a {
+	text-decoration: none;
 	color: white;
 }
 #about {
@@ -75,17 +76,6 @@ a {
 	top: 112%;
 	left: 44%;
 }
-/*
-#contactme {
-	height: 190px;
-	width: 320px;
-	background-color: yellow;
-	position: absolute;
-	z-index: 2;
-	right: 7%;
-	top:50%;
-}*/
-
 
 
 
