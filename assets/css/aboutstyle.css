@@ -8,11 +8,31 @@ body {
 	background-color: #B0E5F4;
 }
 
+.header {
+    padding-top: 50px;
+    padding-left: 100px;
+    color: black;
+    z-index: 2;
+    font-weight: 600;
+    line-height: 60px;
+    font-size: 50px;
+    position: relative;
+}
+
 img {
 	/*background-size: 100%;*/
 	width: 100%;
 	z-index: 3;
 	height: 100%;
+}
+
+.description {height: 100%;left: 40%;position: absolute;/* background-position: right; */background: #;background: #C3C1C1;opacity: 0.8;}
+
+.text {
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 150px;
+    font-size: 20px;
 }
 
 #words {
@@ -33,11 +53,11 @@ img {
 	/* -webkit-writing-mode: horizontal-tb; */
 }
 
-.description {
+.about_image {
 	border:1px solid #999;
 	display:inline-block;
-	width: 340px;
-	height: 340px;
+	width: 295px;
+	height: 295px;
 	position: absolute;
 	/* right: 58%; */
 	margin-left: 8%;
@@ -56,7 +76,7 @@ img {
 }
 
 #content {
-	width:1000px;
+	width: 100%;
 	margin-left: 0%;
 	margin-right: 0%;
 	padding:0px 40px 40px 80px;
@@ -79,7 +99,7 @@ a {
 	padding: 20px;
 	float: left;
 	opacity: 0.9;
-	background: #A09F9F;
+	background: #C3C1C1;
 	-webkit-transform: translateX(-280px);
 	-webkit-transition: all 0.3s;
 }
@@ -163,5 +183,3 @@ li {
 
 #nav-toggle span:after {
 	bottom: -10px;
-}
-
