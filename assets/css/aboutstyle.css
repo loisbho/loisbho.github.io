@@ -1,9 +1,12 @@
 #head {
 	/*font-family: "Open Sans", "Helvetica", "Arial", sans serif;*/
 	font-family: 'Cabin';
+	/*font-family: 'Lato';	*/
+
 }
 
 body {
+	font-family: 'Lato';
 	margin:0;
 	background-color: #B0E5F4;
 }
